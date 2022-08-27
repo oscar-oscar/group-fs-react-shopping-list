@@ -37,9 +37,12 @@ Oscar
 - [x] create router to link to pool.js (shopping.router)
 - [x] comment out space for GET,POST,PUT,DELETE
 
-- [] write GET route in shopping.router 
-- [] write axios in input.jsx
-- [] write return for .map in Input.jsx to display onto DOM
+- [] write GET route in shopping.router (oscar)
+
+- [] write useEffect (Meaghan)
+- [] write axios in input.jsx (Meaghan)
+
+- [] write return for .map in Input.jsx to display onto DOM (Mark)
 
 
 
