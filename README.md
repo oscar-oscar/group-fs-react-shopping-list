@@ -34,8 +34,12 @@ Mark
 
 ### Router Setup
 Oscar
-- []  create router to link to pool.js (shopping.router)
-- [] comment out space for GET,POST,PUT,DELETE
+- [x] create router to link to pool.js (shopping.router)
+- [x] comment out space for GET,POST,PUT,DELETE
+
+- [] write GET route in shopping.router 
+- [] write axios in input.jsx
+- [] write return for .map in Input.jsx to display onto DOM
 
 
 
