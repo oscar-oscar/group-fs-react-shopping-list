@@ -19,8 +19,17 @@ Meaghan
 
 ### JSX 
 Mark
-- [] create input & shopping list component 
-- [] return add an item(mark)
+- [X] create input & shopping list component 
+- [X] return add an item(mark)
+-- New Component Folder (named "Input")
+-- New files Input.css and Input.jsx
+-- Import React and css file
+-- function that returns for DOM output
+-- export default Input in Input.jsx
+-- import Input in app.jsx
+-- Input "element" in app return
+-- className (not class) = test 
+-- css class 'test' style color red
 
 
 ### Router Setup
