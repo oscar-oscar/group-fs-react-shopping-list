@@ -5,14 +5,27 @@ import axios from 'axios';
 function Input() {
     let [shoppingListArray, setShoppingListArray] = useState([]);
 //Meaghan TODO -  Use EFFECT 
-
+    useEffect(() => {
+        console.log('useEffect - page load')
+        fetchShoppingList();
+    }, []); 
 
 
 
 
 
 // Meaghan TODO Axios GET 
-
+    const fetchShoppingList = () => {
+        axios({
+            method: 'GET',
+            url: '/shopping-list',
+        }).then(response => {
+            setShoppingListArray(response.data);
+        }).catch(error => {
+            console.log(error);
+            alert('Something went wrong!');
+        })
+    }
 
 
 
