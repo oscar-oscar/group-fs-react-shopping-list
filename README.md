@@ -13,9 +13,9 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 
 ### Database setup
 Meaghan
-- [] Create database name fs-react-shopping 
-- [] Create table : name, quantity, unit 
-- [] Insert sample data for testing GET
+- [X] Create database name fs-react-shopping 
+- [X] Create table : name, quantity, unit 
+- [X] Insert sample data for testing GET
 
 ### JSX 
 Mark
