@@ -24,7 +24,7 @@ Mark
 
 
 ### Router Setup
-
+Oscar
 - []  create router to link to pool.js (shopping.router)
 - [] comment out space for GET,POST,PUT,DELETE
 
