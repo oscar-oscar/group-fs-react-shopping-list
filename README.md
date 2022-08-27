@@ -37,7 +37,7 @@ Oscar
 - [x] create router to link to pool.js (shopping.router)
 - [x] comment out space for GET,POST,PUT,DELETE
 
-- [] write GET route in shopping.router (oscar)
+- [x] write GET route in shopping.router (oscar)
 
 - [] write useEffect (Meaghan)
 - [] write axios in input.jsx (Meaghan)
