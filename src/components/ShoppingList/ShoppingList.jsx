@@ -7,7 +7,9 @@ function ShoppingList({ shoppingListArray }) {
 
     return (
         <div>
-            <p>Add an Item</p>
+            <h5>Shopping List</h5>
+            <button>Reset</button>
+            <button>Clear</button>
             {/* Mark shoppingList DISPLAY ON DOM */}
             <ul>
                 {shoppingListArray.map((shoppingItem) => {
