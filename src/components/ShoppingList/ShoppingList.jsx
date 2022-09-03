@@ -3,19 +3,21 @@ import './ShoppingList.css';
 import ShoppingListItem from '../ShoppingListItem/ShoppingListItem';
 
 
-function ShoppingList({shoppingListArray}) {
+function ShoppingList({ shoppingListArray }) {
 
     return (
         <div>
-            <p className="test">Add an Item</p>
+            <p>Add an Item</p>
             {/* Mark shoppingList DISPLAY ON DOM */}
             <ul>
                 {shoppingListArray.map((shoppingItem) => {
-                    return <li key={shoppingItem.id}>Item Name: {shoppingItem.name}, Item Quantity: {shoppingItem.quantity}, Item Unit: {shoppingItem.unit}</li>
-                    })
+                    return <ShoppingListItem
+                        key={shoppingItem.id}
+                        shoppingItem={shoppingItem}
+                    />
+                })
                 }
             </ul>
-            <ShoppingListItem />
         </div>
     );
 }

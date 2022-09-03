@@ -1,12 +1,10 @@
 import './ShoppingListItem.css';
 
-function ShoppingListItem() {
+function ShoppingListItem({ shoppingItem }) {
 
-return (
-    <div>
-        <p>ShoppingListItem</p>
-    </div>
-)
+    return (
+        <li>Item Name: {shoppingItem.name}, Item Quantity: {shoppingItem.quantity}, Item Unit: {shoppingItem.unit}</li>
+    )
 
 }
 
