@@ -27,6 +27,30 @@ function App() {
             alert('Something went wrong!');
         })
     }
+        //Oscar Axios POST
+
+        const addListItem = (event) => {
+            event.preventDefault();
+            axios({
+                method: 'POST',
+                url: '/shopping-list',
+                data: {
+                    name: itemName,
+                    quantity: itemQuantity,
+                    unit: itemUnit
+                }
+            }).then(response => {
+                //clear form in puts
+                setItemName('');
+                setitemQuantity('');
+                setitemUnit('');
+                //fetch shopping list
+                fetchShoppingList();
+            }).catch(error => {
+                console.log(error);
+                alert('something wrong in POST');
+            });
+    }
 
     return (
         <div className="App">
