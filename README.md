@@ -16,9 +16,9 @@ Meaghan
 - [X] Create database name fs-react-shopping 
 - [X] Create table : name, quantity, unit 
 - [X] Insert sample data for testing GET
-- [ ] Create a form component
-- [ ] Add header "Add an Item"
-- [ ] In Form.jsx create item/quantity/unit inputs with save button that call `addListItem`
+- [X] Create a form component
+- [X] Add header "Add an Item"
+- [X] In Form.jsx create item/quantity/unit inputs with save button that call `addListItem`
 
 
 ### JSX 
