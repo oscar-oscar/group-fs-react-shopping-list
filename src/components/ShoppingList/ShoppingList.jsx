@@ -1,6 +1,7 @@
 import React from 'react';
 import './ShoppingList.css';
 import ShoppingListItem from '../ShoppingListItem/ShoppingListItem';
+import Grid from '@mui/material/Grid';
 
 
 function ShoppingList({ shoppingListArray }) {
@@ -11,7 +12,7 @@ function ShoppingList({ shoppingListArray }) {
             <button>Reset</button>
             <button>Clear</button>
             {/* Mark shoppingList DISPLAY ON DOM */}
-            <ul>
+            <Grid container spacing={2}>
                 {shoppingListArray.map((shoppingItem) => {
                     return <ShoppingListItem
                         key={shoppingItem.id}
@@ -19,7 +20,7 @@ function ShoppingList({ shoppingListArray }) {
                     />
                 })
                 }
-            </ul>
+            </Grid>
         </div>
     );
 }

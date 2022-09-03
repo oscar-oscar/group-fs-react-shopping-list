@@ -4,6 +4,7 @@ import ShoppingList from '../ShoppingList/ShoppingList.jsx';
 import Header from '../Header/Header.jsx';
 import './App.css';
 import Form from '../Form/Form.jsx';
+import Container from '@mui/material/Container';
 
 
 
@@ -57,7 +58,7 @@ function App() {
     }
 
     return (
-        <div className="App">
+        <Container className="App">
             <Header />
             <Form addListItem={addListItem}
                 itemName={itemName}
@@ -70,10 +71,7 @@ function App() {
             <ShoppingList
                 shoppingListArray={shoppingListArray}
             />
-            <main>
-                <p>Under Construction...</p>
-            </main>
-        </div>
+        </Container>
     );
 }
 
