@@ -1,5 +1,6 @@
 import React from 'react';
 import './ShoppingList.css';
+import ShoppingListItem from '../ShoppingListItem/ShoppingListItem';
 
 
 function ShoppingList({shoppingListArray}) {
@@ -14,6 +15,7 @@ function ShoppingList({shoppingListArray}) {
                     })
                 }
             </ul>
+            <ShoppingListItem />
         </div>
     );
 }
