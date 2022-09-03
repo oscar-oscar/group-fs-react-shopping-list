@@ -25,11 +25,11 @@ Meaghan
 Mark
 - [X] create input & shopping list component 
 - [X] return add an item(mark)
-- [ ] Create `ShoppingListItem` component
-- [ ] Refactor shopping list map to the list item component
-- [ ] add reset and clear button - no function yet in ShoppingList?
-- [ ] Add buy and remove buttons - no function yet in ShoppingListItem
-- [ ] pass required props
+- [X] Create `ShoppingListItem` component
+- [X] Refactor shopping list map to the list item component
+- [X] add reset and clear button - no function yet in ShoppingList?
+- [X] Add buy and remove buttons - no function yet in ShoppingListItem
+- [X] pass required props
 - [ ] add base MUI cards/other styling
 
 
